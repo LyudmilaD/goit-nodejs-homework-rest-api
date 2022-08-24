@@ -1,3 +1,10 @@
+
+const createError = require('./createError')
+
+module.exports = {
+  createError,
+}
+
 const createError = require("./createError");
 const ctrlWrapper = require("./ctrlWrapper");
 const sendEmail = require("./sendEmail");
@@ -7,3 +14,4 @@ module.exports = {
   ctrlWrapper,
   sendEmail,
 };
+
